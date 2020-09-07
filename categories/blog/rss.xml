@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Neel Dugar - Blog</title>
+        <link>https://neeldug.github.io</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://neeldug.github.io/categories/blog/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Mon, 07 Sep 2020 15:57:07 +0000</lastBuildDate>
+        <item>
+            <title>First Post</title>
+            <pubDate>Mon, 07 Sep 2020 15:57:07 +0000</pubDate>
+            <link>https://neeldug.github.io/posts/first/</link>
+            <guid>https://neeldug.github.io/posts/first/</guid>
+            <description>&lt;p&gt;Hi! This is my first official blog post. So, over the past Summer, I&#x27;ve been learning &lt;a href=&quot;https:&#x2F;&#x2F;www.rust-lang.org&#x2F;&quot;&gt;Rust&lt;&#x2F;a&gt;! Rust&#x27;s a wonderful systems language, that&#x27;s taught me a lot that my brief course in C++ didn&#x27;t cover.&lt;&#x2F;p&gt;
+&lt;p&gt;I think I&#x27;ll quickly cover why I love Rust, and why you might do too!&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tooling! Rust&#x27;s tooling is incredible, I&#x27;ve worked with Node, Meteor, Python, but Rust excels here. cargo is brilliant with package management, benchmarking, formatting and even has &lt;code&gt;clippy&lt;&#x2F;code&gt; to help with guidance.&lt;&#x2F;li&gt;
+&lt;li&gt;The compiler errors, having worked with C++ for a long time, Rust is so refreshing in comparison, long gone are the days having to stare at SegFaults and being clueless what&#x27;s happening, Rust gives you everything, where the issue arises, how to fix it, further information on the error, the list goes on and on.&lt;&#x2F;li&gt;
+&lt;li&gt;The community! This is a big one, while I&#x27;m sure many of you know the Stack Overflow community&#x27;s support for Rust, I&#x27;ve personally seen how wonderful the Rust Development team is when it comes to newcomers, there&#x27;s Rustlings, and even issues that you can raise for clarification on anything!&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I have spent the past month or two making minor contributions to &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;boa-dev&#x2F;boa&#x2F;&quot;&gt;boa&lt;&#x2F;a&gt;, an open-source JavaScript lexer, parser and compiler built in Rust. In working on a few PR&#x27;s on this project, I&#x27;ve learnt how to properly structure commits and general DevOps protocols.&lt;&#x2F;p&gt;
+&lt;p&gt;Finally, before I end off this ramble, I wanted to highlight how awesome CI, or Continuous Integration, is. It&#x27;s actually so cool, I learnt about CI through Boa and other open-source projects, where almost anything can be automated, whether it be unit testing on PR&#x27;s and Pushes, benchmarking, generating coverage reports, anything you can automate, it can do!&lt;&#x2F;p&gt;
+&lt;p&gt;Neel Dugar&lt;&#x2F;p&gt;
+</description>
+        </item>
+    </channel>
+</rss>
