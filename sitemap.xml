@@ -1,46 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://neeldug.github.io/</loc>
+        <loc>https://neeld.me/</loc>
     </url>
     <url>
-        <loc>https://neeldug.github.io/categories/</loc>
+        <loc>https://neeld.me/categories/</loc>
     </url>
     <url>
-        <loc>https://neeldug.github.io/categories/blog/</loc>
+        <loc>https://neeld.me/categories/blog/</loc>
     </url>
     <url>
-        <loc>https://neeldug.github.io/categories/blog/page/1/</loc>
+        <loc>https://neeld.me/categories/blog/page/1/</loc>
     </url>
     <url>
-        <loc>https://neeldug.github.io/posts/</loc>
+        <loc>https://neeld.me/posts/</loc>
     </url>
     <url>
-        <loc>https://neeldug.github.io/posts/first/</loc>
+        <loc>https://neeld.me/posts/first/</loc>
         <lastmod>2020-09-07T15:57:07+00:00</lastmod>
     </url>
     <url>
-        <loc>https://neeldug.github.io/posts/page/1/</loc>
+        <loc>https://neeld.me/posts/hackmit/</loc>
+        <lastmod>2020-09-23T16:40:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://neeldug.github.io/tags/</loc>
+        <loc>https://neeld.me/posts/page/1/</loc>
     </url>
     <url>
-        <loc>https://neeldug.github.io/tags/boa/</loc>
+        <loc>https://neeld.me/tags/</loc>
     </url>
     <url>
-        <loc>https://neeldug.github.io/tags/boa/page/1/</loc>
+        <loc>https://neeld.me/tags/boa/</loc>
     </url>
     <url>
-        <loc>https://neeldug.github.io/tags/initial-post/</loc>
+        <loc>https://neeld.me/tags/boa/page/1/</loc>
     </url>
     <url>
-        <loc>https://neeldug.github.io/tags/initial-post/page/1/</loc>
+        <loc>https://neeld.me/tags/dev/</loc>
     </url>
     <url>
-        <loc>https://neeldug.github.io/tags/rust/</loc>
+        <loc>https://neeld.me/tags/dev/page/1/</loc>
     </url>
     <url>
-        <loc>https://neeldug.github.io/tags/rust/page/1/</loc>
+        <loc>https://neeld.me/tags/hackmit/</loc>
+    </url>
+    <url>
+        <loc>https://neeld.me/tags/hackmit/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://neeld.me/tags/initial-post/</loc>
+    </url>
+    <url>
+        <loc>https://neeld.me/tags/initial-post/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://neeld.me/tags/python/</loc>
+    </url>
+    <url>
+        <loc>https://neeld.me/tags/python/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://neeld.me/tags/rust/</loc>
+    </url>
+    <url>
+        <loc>https://neeld.me/tags/rust/page/1/</loc>
     </url>
 </urlset>

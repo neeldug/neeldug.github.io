@@ -36,91 +36,95 @@
 
 <body class='site'>
 
-	<nav class='navbar is-light' role='navigation' aria-label='main navigation'>
-		<div class='container'>
-			<div class='navbar-brand'>
-				<a class='navbar-item has-text-weight-bold' href='/'>Neel Dugar</a>
-				<a role='button' class='navbar-burger burger' aria-label='menu' aria-expanded='false'
-					data-target='navMenu'>
-					<span aria-hidden='true'></span>
-					<span aria-hidden='true'></span>
-					<span aria-hidden='true'></span>
+<nav class='navbar is-light' role='navigation' aria-label='main navigation'>
+	<div class='container'>
+		<div class='navbar-brand'>
+			<a class='navbar-item has-text-weight-bold' href='/'>Neel Dugar</a>
+			<a role='button' class='navbar-burger burger' aria-label='menu' aria-expanded='false'
+			   data-target='navMenu'>
+				<span aria-hidden='true'></span>
+				<span aria-hidden='true'></span>
+				<span aria-hidden='true'></span>
+			</a>
+		</div>
+
+		<div id='navMenu' class='navbar-menu'>
+			<div class='navbar-end'>
+
+				<a href='https:&#x2F;&#x2F;neeld.me&#x2F;' class='navbar-item'>
+					Home
 				</a>
-			</div>
 
-			<div id='navMenu' class='navbar-menu'>
-				<div class='navbar-end'>
+				<a href='https:&#x2F;&#x2F;neeld.me&#x2F;posts' class='navbar-item'>
+					Posts
+				</a>
 
-					<a href='https:&#x2F;&#x2F;neeldug.github.io&#x2F;' class='navbar-item'>
-						Home
-					</a>
+				<a href='https:&#x2F;&#x2F;neeld.me&#x2F;tags' class='navbar-item'>
+					Tags
+				</a>
 
-					<a href='https:&#x2F;&#x2F;neeldug.github.io&#x2F;posts' class='navbar-item'>
-						Posts
-					</a>
+				<a href='https:&#x2F;&#x2F;neeld.me&#x2F;categories' class='navbar-item'>
+					Categories
+				</a>
 
-					<a href='https:&#x2F;&#x2F;neeldug.github.io&#x2F;tags' class='navbar-item'>
-						Tags
-					</a>
-
-					<a href='https:&#x2F;&#x2F;neeldug.github.io&#x2F;categories' class='navbar-item'>
-						Categories
-					</a>
-
-					<div class='navbar-item'>
-						<div class='field has-addons'>
-							<div class='control'>
-								<input id='search-dialog' class='input is-small' type='search' placeholder='Search'>
-							</div>
-							<div class='control'>
-								<a class='button is-small'>
-									<span class='icon'><i class='fas fa-search'></i></span>
-								</a>
-							</div>
+				<div class='navbar-item'>
+					<div class='field has-addons'>
+						<div class='control'>
+							<input id='search-dialog' class='input is-small' type='search' placeholder='Search'>
+						</div>
+						<div class='control'>
+							<a class='button is-small'>
+								<span class='icon'><i class='fas fa-search'></i></span>
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</nav>
+	</div>
+</nav>
 
 
-	<section class="section">
-		<div class="container">
-			<div class='modal'>
-				<div class='modal-background'></div>
-				<div class='modal-card'>
-					<header class='modal-card-head'>
-						<p class='modal-card-title'>Search</p>
-						<button class='delete' aria-label='close'></button>
-					</header>
-					<section class='modal-card-body'>
+<section class="section">
+	<div class="container">
+		<div class='modal'>
+			<div class='modal-background'></div>
+			<div class='modal-card'>
+				<header class='modal-card-head'>
+					<p class='modal-card-title'>Search</p>
+					<button class='delete' aria-label='close'></button>
+				</header>
+				<section class='modal-card-body'>
 
-						<div class='field'>
-							<p class='control has-icons-right'>
-								<input id='search' class='input' type='search' placeholder='🔎 Search the website'>
-								<span class='icon is-small is-right'>
+					<div class='field'>
+						<p class='control has-icons-right'>
+							<input id='search' class='input' type='search' placeholder='🔎 Search the website'>
+							<span class='icon is-small is-right'>
 									<i class='fas fa-search'></i>
 								</span>
-							</p>
+						</p>
+					</div>
+					<div class='search-results'>
+						<div class='search-results__items'>
 						</div>
-						<div class='search-results'>
-							<div class='search-results__items'>
-							</div>
-						</div>
-					</section>
-				</div>
+					</div>
+				</section>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 
 
 <header class="hero">
 	<div class="hero-body">
-		<div class="container">
-			<h1 class="title has-text-centered">
-				<span class="icon"><i class="fas fa-folder"></i></span> Blog
+		<div class="container has-text-centered">
+			<h1 class="title">
+				<span class="icon"><i class="fas fa-folder"></i><i class="fas fa-folder" style="position: relative;left: -15px;top: 7px;"></i></span>
+				Categories
 			</h1>
+			<h2 class="subtitle">
+				1 categories in total
+			</h2>
 		</div>
 	</div>
 </header>
@@ -130,64 +134,40 @@
 <main class="section pt-0">
 	<div class="container">
 		<div class="columns">
-			<div class="column  is-6 is-offset-3">
+			<div class="column is-10 is-offset-1 has-text-justified">
 
-
-
-
-				<article>
-					<h1 class="title is-4">
-						<a class="link" href="https:&#x2F;&#x2F;neeldug.github.io&#x2F;posts&#x2F;first&#x2F;">
-							First Post
-						</a>
-					</h1>
-
-					<p>
-						<p class='has-text-grey'>
-							<span class='icon'>
-								<i class='fas fa-user'></i>
-							</span>
-							Neel Dugar
-							published on
-							<span class='icon'>
-								<i class='far fa-calendar-alt'></i>
-							</span>
-							<time datetime='2020-09-07T15:57:07+00:00'>September 07, 2020</time>
-						</p>
-					</p>
-
-					<a class="read-more" href="https:&#x2F;&#x2F;neeldug.github.io&#x2F;posts&#x2F;first&#x2F;">
-						Read More
-					</a>
-				</article>
+        <span class="my-3 mx-2" style="display: inline-block;">
+        <a class="link" href="https:&#x2F;&#x2F;neeld.me&#x2F;categories&#x2F;blog&#x2F;">
+          <span class="icon"><i class="fas fa-folder"></i></span>Blog<sup>2</sup>
+        </a>
+        </span>
 
 
 			</div>
 		</div>
-
 	</div>
 </main>
 
 
 
-	<footer class='footer py-4'>
-		<div class='has-text-centered'>
-			<p>
-				Built with <span class='icon'><i class='fas fa-code'></i></span> code and <span class='icon'>
+<footer class='footer py-4'>
+	<div class='has-text-centered'>
+		<p>
+			Built with <span class='icon'><i class='fas fa-code'></i></span> code and <span class='icon'>
 					<i class='fas fa-heart'></i></span> love
-				<br />
-				<span class='has-text-weight-bold'>
+			<br />
+			<span class='has-text-weight-bold'>
 					Powered By <span class='icon'><i class='fas fa-power-off'></i></span> Zola
 				</span>
-			</p>
-		</div>
-	</footer>
+		</p>
+	</div>
+</footer>
 
 
-	<script src='https://kit.fontawesome.com/201b8d5e05.js' crossorigin='anonymous'></script>
-	<script type='text/javascript' src='https:&#x2F;&#x2F;neeldug.github.io&#x2F;elasticlunr.min.js'></script>
-	<script type='text/javascript' src='https:&#x2F;&#x2F;neeldug.github.io&#x2F;search_index.en.js'></script>
-	<script type='text/javascript' src='https:&#x2F;&#x2F;neeldug.github.io&#x2F;js&#x2F;site.js'></script>
+<script src='https://kit.fontawesome.com/201b8d5e05.js' crossorigin='anonymous'></script>
+<script type='text/javascript' src='https:&#x2F;&#x2F;neeld.me&#x2F;elasticlunr.min.js'></script>
+<script type='text/javascript' src='https:&#x2F;&#x2F;neeld.me&#x2F;search_index.en.js'></script>
+<script type='text/javascript' src='https:&#x2F;&#x2F;neeld.me&#x2F;js&#x2F;site.js'></script>
 
 
 
