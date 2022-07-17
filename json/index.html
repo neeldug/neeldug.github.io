@@ -1,0 +1,57 @@
+[ 
+  
+  
+    
+      
+      {
+      "title": "boa-dev/boa",
+      "url": "https://neeldug.github.io/opensource/boa/",
+      "body": "My contributions to Boa were made in the form of a few Pull Requests in order to achieve:\n\nBetter conformance with the ECMAScript specification\nMigrate to a ReGex library, regress with a specific target for JavaScript regular expression syntax\nRefactor the benchmarking system to be more modular and allow for easy comparison between other engines\n\n"
+      }
+    
+    ,
+    
+      
+      {
+      "title": "Mars Rover",
+      "url": "https://neeldug.github.io/projects/mars-rover/",
+      "body": "MIPS CPU\nMy contribution to the Mars rover was the Vision subsystem:\n\nRGB-HSV colour conversion for easier ball-detection mechanism\nRun-length based filtering to eliminate noise\nAttempted use of Sobel operator to detect Pink ball edges due to overexposure\nImplementation of the SPI protocol in SystemVerilog for fast data transfer to the ESP32\n\n"
+      }
+    ,
+    
+    
+      
+      {
+      "title": "Raft Implementation",
+      "url": "https://neeldug.github.io/projects/raft-implementation/",
+      "body": "MIPS CPU\nAn implementation of the Raft distributed consensus protocol created by Sam &amp; me.\n\nFollows the specification of the Raft protocol in Elixir\nUses Elixir to avoid concurrency bugs &amp; awesome interprocess message passing\n\nProvided a strong insight into the process of developing strong guaranteed distributed algorithms.\n"
+      }
+    ,
+    
+    
+      
+      {
+      "title": "MIPS CPU",
+      "url": "https://neeldug.github.io/projects/mips-cpu/",
+      "body": "MIPS CPU\nAn implementation of a MIPS I CPU as part of my Computer Architecture module.\n\nDockerized test-runs for seamless team-testing and CI testing\nHarvard style memory interface\nModular test-suite with support for both assembly and C testcases\n\nCheck out the repository to see the overall architecture and final report.\n"
+      }
+    ,
+    
+    
+      
+      {
+      "title": "JBMN Systems: Embedded Systems project",
+      "url": "https://neeldug.github.io/projects/embedded-project/",
+      "body": "JBMN Systems: COVID Tracker\nThe project makes use of an Arduino board and MicroPython, to grab sensor data as well as Bluetooth sensor data to estimate proximity.\nMy contributions were namely toward the cloud-side/database querying end of the project:\n\nSetup of InfluxDB instance for seamless timeseries data-storage of sensor data\nGo server-side code to handle MQTT messages and query for CRUD operations to the DB\nProviding an HTTP endpoint for a web interface for proximity diagrams using Influx queries\nDockerized the server-side code to build a localised cluster including the MQTT broker, InfluxDB and the server-side code\n\n"
+      }
+    ,
+    
+    
+      
+      {
+      "title": "Error404 Circuit Simulator",
+      "url": "https://neeldug.github.io/projects/error404-circuit-simulator/",
+      "body": "Circuit Simulator\nA CLI package, built with the intention to have a simpler interface of LTSpice.\nBuilt for end of year 1 group project.\nProvides support for:\n\nResistors\nInductors\nCapacitors\nDiodes\n\nUsage\n$ simulator -i file [ -ch ] [ -o dir ] [-p list] [ -s path ] [ -f format ]\nOptions:\n\n-i &lt;path&gt;          : Supply path to input netlist\n-o &lt;path&gt;          : Supply path to output directory\n-f &lt;format&gt;        : Specify output format, either csv or space\n-p &lt;list&gt;          : Generates interactive plot with space separated list of columns to view\n-s &lt;path&gt;          : Saves interactive plot as HTML file at specified location\n-c                 : Shows names of columns in output file, blocks -p and -s i.e. doesn't plot/save result\n-h,                : Shows help information\n\nExamples usages:\nPlot Specific Columns:\nsimulator -i test.net -p 'V(N001) V(N002)'\nPlot All Columns and save result as interactive HTML:\nsimulator -i test.net -p '' -s result.html\nGenerate result and check names of columns in netlist:\nsimulator -i test.net -c\nQuick Installation\nClone the repository and perform the following:\n\ncd build\n./install.sh\n"
+      }
+    
+    ]

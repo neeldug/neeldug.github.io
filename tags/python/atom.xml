@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Neel&#x27;s Page - Python</title>
+	<link href="https://neeldug.github.io/tags/python/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://neeldug.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2020-06-16T20:28:00+00:00</updated>
+	<id>https://neeldug.github.io/tags/python/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Error404 Circuit Simulator</title>
+		<published>2020-06-16T20:28:00+00:00</published>
+		<updated>2020-06-16T20:28:00+00:00</updated>
+		<link href="https://neeldug.github.io/projects/error404-circuit-simulator/" type="text/html"/>
+		<id>https://neeldug.github.io/projects/error404-circuit-simulator/</id>
+		<content type="html">&lt;h3 id=&quot;circuit-simulator&quot;&gt;Circuit Simulator&lt;&#x2F;h3&gt;
+&lt;p&gt;A CLI package, built with the intention to have a simpler interface of LTSpice.&lt;&#x2F;p&gt;
+&lt;p&gt;Built for end of year 1 group project.&lt;&#x2F;p&gt;
+&lt;p&gt;Provides support for:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Resistors&lt;&#x2F;li&gt;
+&lt;li&gt;Inductors&lt;&#x2F;li&gt;
+&lt;li&gt;Capacitors&lt;&#x2F;li&gt;
+&lt;li&gt;Diodes&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;usage&quot;&gt;Usage&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;code&gt;$ simulator -i file [ -ch ] [ -o dir ] [-p list] [ -s path ] [ -f format ]&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Options:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-i &amp;lt;path&amp;gt;&lt;&#x2F;code&gt;          : Supply path to input netlist&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;-o &amp;lt;path&amp;gt;&lt;&#x2F;code&gt;          : Supply path to output directory&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;-f &amp;lt;format&amp;gt;&lt;&#x2F;code&gt;        : Specify output format, either &lt;code&gt;csv&lt;&#x2F;code&gt; or &lt;code&gt;space&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;-p &amp;lt;list&amp;gt;&lt;&#x2F;code&gt;          : Generates interactive plot with space separated list of columns to view&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;-s &amp;lt;path&amp;gt;&lt;&#x2F;code&gt;          : Saves interactive plot as HTML file at specified location&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;-c&lt;&#x2F;code&gt;                 : Shows names of columns in output file, blocks -p and -s i.e. doesn&#x27;t plot&#x2F;save result&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;-h&lt;&#x2F;code&gt;,                : Shows help information&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Examples usages:&lt;&#x2F;p&gt;
+&lt;p&gt;Plot Specific Columns:
+&lt;code&gt;simulator -i test.net -p &#x27;V(N001) V(N002)&#x27;&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Plot All Columns and save result as interactive HTML:
+&lt;code&gt;simulator -i test.net -p &#x27;&#x27; -s result.html&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Generate result and check names of columns in netlist:
+&lt;code&gt;simulator -i test.net -c&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;quick-installation&quot;&gt;Quick Installation&lt;&#x2F;h4&gt;
+&lt;p&gt;Clone the repository and perform the following:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; build
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;.&#x2F;install.sh
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;</content>
+	</entry>
+</feed>

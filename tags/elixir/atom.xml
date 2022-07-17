@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Neel&#x27;s Page - Elixir</title>
+	<link href="https://neeldug.github.io/tags/elixir/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://neeldug.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-02-22T16:01:02+00:00</updated>
+	<id>https://neeldug.github.io/tags/elixir/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Raft Implementation</title>
+		<published>2022-02-22T16:01:02+00:00</published>
+		<updated>2022-02-22T16:01:02+00:00</updated>
+		<link href="https://neeldug.github.io/projects/raft-implementation/" type="text/html"/>
+		<id>https://neeldug.github.io/projects/raft-implementation/</id>
+		<content type="html">&lt;h3 id=&quot;mips-cpu&quot;&gt;MIPS CPU&lt;&#x2F;h3&gt;
+&lt;p&gt;An implementation of the Raft distributed consensus protocol created by Sam &amp;amp; me.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Follows the &lt;a href=&quot;https:&#x2F;&#x2F;raft.github.io&#x2F;raft.pdf&quot;&gt;specification&lt;&#x2F;a&gt; of the Raft protocol in Elixir&lt;&#x2F;li&gt;
+&lt;li&gt;Uses Elixir to avoid concurrency bugs &amp;amp; awesome interprocess message passing&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Provided a strong insight into the process of developing strong guaranteed distributed algorithms.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

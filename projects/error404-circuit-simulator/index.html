@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title>Neel&#x27;s Page</title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https:&#x2F;&#x2F;neeldug.github.io&#x2F;main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="https://neeldug.github.io/elasticlunr.min.js" defer></script>
+
+<script src="https://neeldug.github.io/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+<!-- RSS -->
+
+
+  
+
+  
+  
+</head>
+
+<body>
+  <aside id="sidebar" class="menu is-hidden-touch">
+    
+
+<div style="display:block;margin:auto auto 0;padding:.5rem">
+    <figure class="image">
+        <img id="avatar" class="is-rounded" src="https:&#x2F;&#x2F;neeldug.github.io&#x2F;media&#x2F;pp.webp">
+    </figure>
+</div>
+
+
+    
+<ul id="menu" class="menu-list">
+    
+
+<li data-menuanchor="about"><a href="https:&#x2F;&#x2F;neeldug.github.io&#x2F;#anchor_about">ABOUT</a></li>   
+
+ 
+<li data-menuanchor="skills"><a href="https:&#x2F;&#x2F;neeldug.github.io&#x2F;#anchor_skills">SKILLS</a></li>
+
+
+<li data-menuanchor="projects"><a href="https:&#x2F;&#x2F;neeldug.github.io&#x2F;#anchor_projects">PROJECTS</a></li>
+
+ 
+<li data-menuanchor="opensource"><a href="https:&#x2F;&#x2F;neeldug.github.io&#x2F;#anchor_opensource">OPEN SOURCE</a></li>
+
+
+ 
+<li data-menuanchor="experience"><a href="https:&#x2F;&#x2F;neeldug.github.io&#x2F;#anchor_experience">EXPERIENCE</a></li>
+
+ 
+<li data-menuanchor="education"><a href="https:&#x2F;&#x2F;neeldug.github.io&#x2F;#anchor_education">EDUCATION</a></li>
+
+
+</ul>
+
+  </aside>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world"  readonly></textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button" id="copyButton">Copy to clipboard</button>
+    </footer>
+  </div>
+</div>
+
+  <div id="content">
+    <!-- Content -->
+    
+<div class="container is-fluid" style="min-height: 100vh;">
+  <div class="is-flex is-flex-direction-column is-justify-content-center" style="min-height: 100vh;">
+    <h2>Error404 Circuit Simulator<a href="https:&#x2F;&#x2F;github.com&#x2F;neeldug&#x2F;404CircuitSim" style="font-style: initial;" ><span class="tag is-warning">Link</span></a></h2>
+    
+    <div class="content pb-5">
+      <h3 id="circuit-simulator">Circuit Simulator</h3>
+<p>A CLI package, built with the intention to have a simpler interface of LTSpice.</p>
+<p>Built for end of year 1 group project.</p>
+<p>Provides support for:</p>
+<ul>
+<li>Resistors</li>
+<li>Inductors</li>
+<li>Capacitors</li>
+<li>Diodes</li>
+</ul>
+<h4 id="usage">Usage</h4>
+<p><code>$ simulator -i file [ -ch ] [ -o dir ] [-p list] [ -s path ] [ -f format ]</code></p>
+<p>Options:</p>
+<ul>
+<li><code>-i &lt;path&gt;</code>          : Supply path to input netlist</li>
+<li><code>-o &lt;path&gt;</code>          : Supply path to output directory</li>
+<li><code>-f &lt;format&gt;</code>        : Specify output format, either <code>csv</code> or <code>space</code></li>
+<li><code>-p &lt;list&gt;</code>          : Generates interactive plot with space separated list of columns to view</li>
+<li><code>-s &lt;path&gt;</code>          : Saves interactive plot as HTML file at specified location</li>
+<li><code>-c</code>                 : Shows names of columns in output file, blocks -p and -s i.e. doesn't plot/save result</li>
+<li><code>-h</code>,                : Shows help information</li>
+</ul>
+<p>Examples usages:</p>
+<p>Plot Specific Columns:
+<code>simulator -i test.net -p 'V(N001) V(N002)'</code></p>
+<p>Plot All Columns and save result as interactive HTML:
+<code>simulator -i test.net -p '' -s result.html</code></p>
+<p>Generate result and check names of columns in netlist:
+<code>simulator -i test.net -c</code></p>
+<h4 id="quick-installation">Quick Installation</h4>
+<p>Clone the repository and perform the following:</p>
+<pre style="background-color:#2b303b;">
+<code class="language-bash" data-lang="bash"><span style="color:#96b5b4;">cd</span><span style="color:#c0c5ce;"> build
+</span><span style="color:#bf616a;">./install.sh
+</span></code></pre>
+    </div>
+  </div>
+</div>
+
+  </div>
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+</script>
+
+  
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.1.2/dist/fullpage.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.1.2/vendors/scrolloverflow.min.js"></script>
+<script type="text/javascript">
+    var fullpages = new fullpage('#fullpage', {
+        menu: '#menu',
+        setRecordHistory: false,
+        anchors: [
+             'anchor_about',         
+             'anchor_skills',        
+             'anchor_projects',      
+             'anchor_opensource',    
+            
+             'anchor_experience',    
+             'anchor_education',     
+            
+        ],
+        afterResize: function( width, height ){
+		    if (width < 936) {
+                fullpage_api.setAutoScrolling(false);
+            } else {
+                fullpage_api.setAutoScrolling(true);
+            }
+	    }
+    });
+    if (screen.width < 936){
+        fullpages.setAutoScrolling(false);
+    }
+
+</script>
+
+</body>
+
+</html>

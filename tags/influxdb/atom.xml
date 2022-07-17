@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Neel&#x27;s Page - InfluxDB</title>
+	<link href="https://neeldug.github.io/tags/influxdb/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://neeldug.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-03-02T03:07:13+00:00</updated>
+	<id>https://neeldug.github.io/tags/influxdb/atom.xml</id>
+	<entry xml:lang="en">
+		<title>JBMN Systems: Embedded Systems project</title>
+		<published>2022-03-02T03:07:13+00:00</published>
+		<updated>2022-03-02T03:07:13+00:00</updated>
+		<link href="https://neeldug.github.io/projects/embedded-project/" type="text/html"/>
+		<id>https://neeldug.github.io/projects/embedded-project/</id>
+		<content type="html">&lt;h3 id=&quot;jbmn-systems-covid-tracker&quot;&gt;JBMN Systems: COVID Tracker&lt;&#x2F;h3&gt;
+&lt;p&gt;The project makes use of an Arduino board and MicroPython, to grab sensor data as well as Bluetooth sensor data to estimate proximity.&lt;&#x2F;p&gt;
+&lt;p&gt;My contributions were namely toward the cloud-side&#x2F;database querying end of the project:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup of InfluxDB instance for seamless timeseries data-storage of sensor data&lt;&#x2F;li&gt;
+&lt;li&gt;Go server-side code to handle MQTT messages and query for CRUD operations to the DB&lt;&#x2F;li&gt;
+&lt;li&gt;Providing an HTTP endpoint for a web interface for proximity diagrams using Influx queries&lt;&#x2F;li&gt;
+&lt;li&gt;Dockerized the server-side code to build a localised cluster including the MQTT broker, InfluxDB and the server-side code&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

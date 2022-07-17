@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Neel&#x27;s Page - JS</title>
+	<link href="https://neeldug.github.io/tags/js/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://neeldug.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2020-08-16T17:50:26+00:00</updated>
+	<id>https://neeldug.github.io/tags/js/atom.xml</id>
+	<entry xml:lang="en">
+		<title>boa-dev&#x2F;boa</title>
+		<published>2020-08-16T17:50:26+00:00</published>
+		<updated>2020-08-16T17:50:26+00:00</updated>
+		<link href="https://neeldug.github.io/opensource/boa/" type="text/html"/>
+		<id>https://neeldug.github.io/opensource/boa/</id>
+		<content type="html">&lt;p&gt;My contributions to Boa were made in the form of a few Pull Requests in order to achieve:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Better conformance with the ECMAScript specification&lt;&#x2F;li&gt;
+&lt;li&gt;Migrate to a ReGex library, &lt;code&gt;regress&lt;&#x2F;code&gt; with a specific target for JavaScript regular expression syntax&lt;&#x2F;li&gt;
+&lt;li&gt;Refactor the benchmarking system to be more modular and allow for easy comparison between other engines&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>
